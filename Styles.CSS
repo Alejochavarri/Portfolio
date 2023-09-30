@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.Imagenes{
+    display: flex;
+    height: 150px;
+    width: 150px;
+    
+}
+
+.Apartado{
+    display: flex;
+    height: 40px;
+    background-color: lightgray;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.nav{
+    background-color: lightgray;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_li_2{
+    color: black;
+   
+}
+
+
+.nav_li{
+    display:block;
+    justify-content: space-around;
+}
+
+.nav_li:hover > a {
+    color: dimgray;
+}
+
+
+.nav_li i {
+   
+    color: black;
+}
+
+.nav_li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
