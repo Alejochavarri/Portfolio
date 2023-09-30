@@ -1,57 +1,84 @@
 *{
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-.Imagenes{
-    display: flex;
-    height: 150px;
-    width: 150px;
-    
+    margin: 0px;
+    padding: 0px;
 }
 
-.Apartado{
-    display: flex;
-    height: 40px;
-    background-color: lightgray;
-    align-items: center;
-    justify-content: center;
-}
-
-
-.nav{
-    background-color: lightgray;
-    height: 40px;
-    align-items: center;
+/*Barra de navegacion*/
+.BarraNavegacion{
+    background: #1e2326;
+    color: white;
+    margin: auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding : 10px 15px;
+    font-size: small;
 }
-
-.nav_li_2{
-    color: black;
-   
+.BarraNavegacion ul{
+    display: flex;
+    list-style: none;
 }
-
-
-.nav_li{
-    display:block;
-    justify-content: space-around;
-}
-
-.nav_li:hover > a {
-    color: dimgray;
-}
-
-
-.nav_li i {
-   
-    color: black;
-}
-
-.nav_li a {
+.BarraNavegacion ul li a{
+    color: white;
     text-decoration: none;
-    color: black;
+    text-align: none;
+    margin-right: 15px;
+    margin-left: 3px;
+    transition: .5s;
 }
 
+.BarraNavegacion ul li a:hover{
+    color: lightgray;
+}
+/*Inicio*/
+.Inicio{
+    background:#1e2326;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+}
+.Inicio .Inicio_Banner{
+    padding: 20px;
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    border-radius: 40px;
+}
+.Inicio .Inicio_Banner{
+    background: #1e2326;
+}
 
+.Inicio .Inicio_Img img{
+    border-radius: 100%;
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.Inicio .Inicio_Banner h3{
+   margin-top: 20px;
+   color: white;
+}
 
+/*Sobre mi*/
+.Aboutme{
+    background-color: #1e2326;
+    padding: 20px 20px;
+    color: white;
+}
+.Aboutme .Contenedor_Aboutme{
+    margin: auto;
+}
+.Aboutme .Contenedor_Aboutme h2{
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+.Aboutme .Contenedor_Aboutme p{
+    text-align: center;
+    color: darkred;
+}
+.Aboutme .Contenedor_Aboutme span {
+    color: white;
+}
