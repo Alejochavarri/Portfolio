@@ -12,14 +12,15 @@
     <!--Menu encabezado-->
     <header class="BarraNavegacion">
         <div class="Logo">
-            <h3>Alejo</h3>
+            <i class="fa-solid fa-a"></i>
+            <i class="fa-solid fa-c"></i>
         </div>
         <nav id="nav">
             <ul>
-                <li class="nav_li" ><i class="fa-solid fa-user"></i><a href="">SOBRE MI</a></li>
-                <li class="nav_li" ><i class="fa-solid fa-screwdriver-wrench"></i><a href="">MIS PROYECTOS</a></li>
-                <li class="nav_li" ><i class="fa-solid fa-envelope"></i><a href="">CONTACTO</a></li>
-                <li class="nav_li" ><i class="fa-solid fa-globe"></i><a href="">REDES</a></li>
+                <li class="nav_li" ><i class="fa-solid fa-user"></i><a href="#aboutme">SOBRE MI</a></li>
+                <li class="nav_li" ><i class="fa-solid fa-book-open"></i><a href="#Conocimiento">CONOCIMIENTOS</a></li>
+                <li class="nav_li" ><i class="fa-solid fa-envelope"></i><a href="#Contacto">CONTACTO</a></li>
+                <li class="nav_li" ><i class="fa-solid fa-globe"></i><a href="#Footer">REDES</a></li>
             </ul>
         </nav>    
         
@@ -31,36 +32,60 @@
             <div class="Inicio_Img" >
                 <Img src="https://www.softzone.es/app/uploads/2018/04/guest.png?x=480&quality=40" class="Imagenes"></Img>
             </div>
-            <h3>Chavarri Alejo</h3>
+            <h3>Alejo</h3>
         </div>      
     </section>
     
     <!--Section Sobre mi-->
-    <section class="Aboutme">
+    <section class="Aboutme" id="aboutme">
         <div class="Contenedor_Aboutme">
             <h2>Sobre mí</h2>
-            <p>Hola, Soy Alejo Chavarri <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                 Dignissimos beatae ab doloribus architecto assumenda ut modi qui repellendus molestiae 
-                 aspernatur. Consequuntur culpa, accusantium nemo placeat quaerat impedit expedita quae 
-                 tenetur.</span></p>
+            <p> HOLA! , <span> Actualmente me encuentro cursando el último año de la carrera: Tecnicatura Universitaria en Programación, de la Universidad Tecnológica Nacional. Gracias a mis estudios pude capacitarme en: C++, C#, SQL, .NET, JavaScript, CSS y HTML.
+                Me gustaría comenzar a utilizar todas estas habilidades en el mundo laboral, y adquirir de esta forma nuevos conocimientos en las distintas áreas que lo conforman, teniendo la posibilidad de asumir nuevos desafíos para desarrollarme tanto personal, como profesionalmente. 
+                
+                </label></span></p>
         </div>
     </section>
 
-    <section class="Apartado">
-        Conocimiento
+    <!--Section Conocimiento-->
+    <section class="Conocimiento" id="Conocimiento">
+        <div class="Contenedor_Conocimiento">
+            <h2>Conocimientos</h2>
+            <div class="Conocimiento_Img">
+                <img src="C.png" alt="C#">
+                <img src="C++.png" alt="C++">
+                <img src="css-3.png" alt="Css">
+                <img src="html.png" alt="html">
+            </div>
+        </div>
     </section>
 
-    <section class="Apartado">
-        Contacto
+    <!--Section Contacto-->
+    <section class="Contacto" id="Contacto">
+        <div class="Contenedor_Contacto">
+            <h2>Contacto</h2>
+            <div class="Form">
+                <input type="text" placeholder="Ingresa tu Nombre">
+                <input type="text" placeholder="Ingresa tu Telefono">
+                <input type="text" placeholder="Ingresa tu Correo">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                <button>Enviar Mensaje</button>
+            </div>
+        </div>
     </section>
 
+    <!--Section Footer-->
     <footer >
-        <section class="Apartado">
-            <label>Mis Redes</label>
-        </section>
-       <section class="Apartado">
-            <i class="fa-brands fa-github"></i>
-            <i class="fa-brands fa-linkedin"></i>
+        <section class="Footer" id="Footer">
+            <div class="Contenedor_Footer">
+                <h2>Mis Redes</h2>
+                <div class="Footer_Icon">  
+                    <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"> <i class="fa-brands fa-linkedin"></i></a>                 
+                </div>
+            </div>
+            
+            
        </section>
        
     </footer>

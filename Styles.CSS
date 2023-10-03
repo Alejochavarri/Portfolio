@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 /*Barra de navegacion*/
@@ -13,11 +14,15 @@
     justify-content: space-between;
     align-items: center;
     padding : 10px 15px;
-    font-size: small;
+    font-size: medium;
+    
 }
 .BarraNavegacion ul{
     display: flex;
     list-style: none;
+}
+.Logo{
+    color: #0c7066;
 }
 .BarraNavegacion ul li a{
     color: white;
@@ -29,15 +34,17 @@
 }
 
 .BarraNavegacion ul li a:hover{
-    color: lightgray;
+    color: #fff;
+    font-size: large;
 }
+
 /*Inicio*/
 .Inicio{
-    background:#1e2326;
+    background: url(Fondo.png);
     display: flex;
     align-items: center;
-    height: 100vh;
-    background-size: cover;
+    height: 80vh;
+    background-size:auto;
 }
 .Inicio .Inicio_Banner{
     padding: 20px;
@@ -59,6 +66,7 @@
 .Inicio .Inicio_Banner h3{
    margin-top: 20px;
    color: white;
+   font-size: x-large;
 }
 
 /*Sobre mi*/
@@ -71,14 +79,117 @@
     margin: auto;
 }
 .Aboutme .Contenedor_Aboutme h2{
+    font-size: x-large;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.Aboutme .Contenedor_Aboutme p{
+    text-align: center;
+    color: #0c7066;
+    font-size: x-large;
+}
+.Aboutme .Contenedor_Aboutme span {
+    color: white;
+    font-size: medium;
+}
+/*Conocimiento*/
+.Conocimiento{
+    background:#1e2326;
+    display: flex;
+    align-items: center;
+    padding: 20px 20px;
+    background-size: cover;
+}
+.Conocimiento .Contenedor_Conocimiento{
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+.Conocimiento_Img{
+    display: flex;
+    margin: auto;
+    height: 100px;
+    
+}
+.Conocimiento .Contenedor_Conocimiento h2{
+    font-size: x-large;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+/*Footer*/
+.Footer{
+    background:#1e2326;
+    display: flex;
+    align-items: center;
+    padding: 20px 20px;
+    background-size: cover;
+}
+.Footer .Contenedor_Footer{
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+.Footer .Contenedor_Footer h2{
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.Footer_Icon a{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: auto;
+    font-size: 20px;
+}
+
+/*Contacto*/
+.Contacto{
+    background: url(Fondo_Mensajes.png);
+    color: #fff;
+    padding: 50px 0;
+
+}
+.Contacto .Contenedor_Contacto{
+    max-width: 1100px;
+    margin: auto;
+
+}
+.Contenedor_Contacto h2{
+    font-size: x-large;
+    color: #fff;
     text-align: center;
     padding-bottom: 20px;
     
 }
-.Aboutme .Contenedor_Aboutme p{
-    text-align: center;
-    color: darkred;
+.Form{
+    align-items: center;
 }
-.Aboutme .Contenedor_Aboutme span {
-    color: white;
+.Form input, .Form textarea{
+    display: block;
+    border:none;
+    padding: 18px;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #1e2326;
+    color: #fff;
+}
+.Form button{
+    cursor: pointer;
+    color: #fff;
+    background-color: #1e2326;
+    border: 2px solid #1e2326;
+    position: relative;
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    font-size: 16px;
 }
